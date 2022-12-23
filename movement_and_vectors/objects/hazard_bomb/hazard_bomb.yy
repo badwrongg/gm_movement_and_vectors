@@ -1,0 +1,48 @@
+{
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "hazard_bomb",
+  "spriteId": {
+    "name": "spr_bomb",
+    "path": "sprites/spr_bomb/spr_bomb.yy",
+  },
+  "solid": false,
+  "visible": true,
+  "managed": true,
+  "spriteMaskId": null,
+  "persistent": false,
+  "parentObjectId": {
+    "name": "__hurtbox",
+    "path": "objects/__hurtbox/__hurtbox.yy",
+  },
+  "physicsObject": false,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsGroup": 1,
+  "physicsDensity": 0.5,
+  "physicsRestitution": 0.1,
+  "physicsLinearDamping": 0.1,
+  "physicsAngularDamping": 0.1,
+  "physicsFriction": 0.2,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsShapePoints": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"__character","path":"objects/__character/__character.yy",},},
+  ],
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"blast_power","varType":0,"value":"80","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
+  ],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"hitpoints","path":"objects/__hurtbox/__hurtbox.yy",},"objectId":{"name":"__hurtbox","path":"objects/__hurtbox/__hurtbox.yy",},"value":"3",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"receive_damage","path":"objects/__hurtbox/__hurtbox.yy",},"objectId":{"name":"__hurtbox","path":"objects/__hurtbox/__hurtbox.yy",},"value":"self_receive_damage",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"receive_impulse_position","path":"objects/__hurtbox/__hurtbox.yy",},"objectId":{"name":"__hurtbox","path":"objects/__hurtbox/__hurtbox.yy",},"value":"immune_receive_impulse",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"receive_impulse_direction","path":"objects/__hurtbox/__hurtbox.yy",},"objectId":{"name":"__hurtbox","path":"objects/__hurtbox/__hurtbox.yy",},"value":"immune_receive_impulse",},
+  ],
+  "parent": {
+    "name": "Scene",
+    "path": "folders/Scene.yy",
+  },
+}

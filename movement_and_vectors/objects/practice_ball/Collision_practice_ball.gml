@@ -1,0 +1,1 @@
+other.add_impulse_position(x, y, 80);

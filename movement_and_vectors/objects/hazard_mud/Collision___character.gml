@@ -1,0 +1,1 @@
+other.move_speed_mod -= slow_power;
